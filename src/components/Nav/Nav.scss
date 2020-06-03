@@ -1,0 +1,78 @@
+.Nav{
+  background-color: var(--primary-color);
+  .inner-Nav{
+    // background-color: red;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .currency{
+      // background-color: green;
+      display: flex;
+      .card{
+        background-color: white;
+        padding: 5px 8px;
+        border-radius: 7px;
+        width: 42px;
+        height: 25px;
+      }
+      .mastercard{
+        margin-right: 9px;
+      }
+      .maestro{
+        margin-right: 11px;
+      }
+      .visa{
+        margin-right: 22.9px;
+      }
+      .Button{
+        // background-color: black;
+        display: flex;
+        align-items: center;
+        .EGP {
+          width: 32px;
+          height: 17px;
+          font-size: 15px;
+          font-weight: bold;
+          // line-height: 1.73;
+        }
+        .downAngle{
+          // display: block;
+          margin-top: -2px;
+          margin-left: 8.9px;
+          width: 9.9px;
+          height: 5.9px;
+        }
+      }
+    }
+    .pages{
+      // background-color: black;
+
+      .Button{
+        font-size: 15px;
+        line-height: 1.73;
+        font-weight: bold;
+
+        &:not(:last-of-type){
+          margin-right: 50px;
+        }
+        img{
+          margin-right: 11px;
+        }
+        .location{
+          width: 14px;
+          height: 16px;
+        }
+        .clockplus{
+          width: 16px;
+          height: 16px;
+        }
+        .phone{
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+  }
+}
