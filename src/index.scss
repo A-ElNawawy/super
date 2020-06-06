@@ -4,12 +4,20 @@
   --primary-color: #0056a8;
   --secondary-color: #fff;
 
+  --text-color: #485254;
+
   // Fonts:
   // ======
+  --normal-font-size: 15px;
 }
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Comfortaa', cursive;
+}
+body{
+  color: var(--text-color);
+  font-size: var(--normal-font-size);
+
 }

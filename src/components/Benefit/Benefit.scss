@@ -1,0 +1,33 @@
+.Benefit{
+  // background-color: red;
+  width: 284px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .left{
+    background-color: var(--primary-color);
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    display: flex;
+    
+    img{
+      display: block;
+      width: 32px;
+      margin: auto;
+    }
+  }
+  .right{
+    h2{
+      font-size: 20px;
+      color: #303637;
+      line-height: 27px;
+    }
+    h3{
+      font-weight: normal;
+      font-size: 17px;
+      color: #586162;
+    }
+  }
+}

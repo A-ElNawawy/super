@@ -3,5 +3,19 @@
   // ======
   background-color: transparent;
   border: none;
-  color: white;
+  font-size: var(--normal-font-size);
+  // colors:
+  // =======
+  &.white{
+    color: white;
+  }
+  &.gray{
+    color: #545e5f;
+  }
+  &.red-background{
+    background-color: #f62434;
+  }
+  &.blue-background{
+    background-color: var(--primary-color);
+  }
 }

@@ -1,0 +1,11 @@
+.OurProducts{
+  margin-top: 72px;
+  padding-bottom: 102px;
+  background-color: #f6f8f9;
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-row-gap: 30px;
+    justify-content: space-between;
+  }
+}

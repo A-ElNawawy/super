@@ -1,1 +1,1 @@
-.Button{background-color:transparent;border:none;color:white}
+.Button{background-color:transparent;border:none;font-size:var(--normal-font-size)}.Button.white{color:white}.Button.gray{color:#545e5f}.Button.red-background{background-color:#f62434}.Button.blue-background{background-color:var(--primary-color)}
