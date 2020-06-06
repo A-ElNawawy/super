@@ -1,0 +1,88 @@
+.Card{
+  background-color: white;
+  width: 298px;
+  border-radius: 2px;
+  border: solid 1px #e6ecef;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  & > *{
+    flex-basis: 100%;
+  }
+
+  .product{
+    // background-color: green;
+    // height: 283px;
+
+    .badge{
+      // position: absolute;
+      background-color: #f6f8f9;
+      border-bottom: solid 1px #e6ecef;
+      height: 45px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span{
+        color: #f00;
+      }
+    }
+    img{
+      width: 172px;
+      height: 200px;
+      display: block;
+      margin: 20px auto 19px;
+    }
+  }
+  .prices{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+    h3{
+      margin-right: 20px;
+      color: var(--primary-color);
+      font-size: 19px;
+    }
+    h4{
+      text-decoration: line-through;
+    }
+  }
+  p{
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  .add{
+    padding: 0 17px;
+    display: flex;
+    height: 52px;
+    margin-bottom: 15px;
+
+    .Button{
+      width: 81px;
+      height: 100%;
+      border-radius: 2px;
+      margin-left: 13px;
+      font-weight: bold;
+    }
+    // select{
+    //   appearance: none;
+    //   background-image: url('./../../images/down-angle.png');
+    //   background-color: transparent;
+    //   flex-grow: 1;
+    //   border-radius: 2px;
+    //   border: solid 1px #e6ecef;
+    // }
+  }
+  .last{
+    background-color: #f6f8f9;
+    color: #303637;
+    height: 46px;
+    margin: 0 17px;
+    border-radius: 2px;
+    border: solid 1px #e6ecef;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

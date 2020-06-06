@@ -1,0 +1,30 @@
+.Header{
+  // background-color: rgb(161, 219, 106);
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  &.centered{
+    justify-content: center;
+  }
+  .left{
+    &.centered{
+      text-align: center;
+    }
+    .title{
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .description{
+      font-size: 18px;
+      color: #f62434;
+    }
+  }
+  .right{
+    flex-basis: 50%;
+    // background-color: rgb(196, 176, 176);
+    display: flex;
+    justify-content: space-between;
+  }
+}

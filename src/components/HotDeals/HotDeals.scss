@@ -1,0 +1,22 @@
+.HotDeals{
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    .pampers{
+      width: 200px;
+      height: 200px;
+    }
+    .ariel{
+      width: 172px;
+      height: 215px;
+    }
+    .blackPhone{
+      width: 120px;
+      height: 204px;
+    }
+    .grayPhone{
+      width: 160px;
+      height: 206px;
+    }
+  }
+}

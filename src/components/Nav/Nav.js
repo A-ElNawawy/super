@@ -3,7 +3,7 @@ import './Nav.css';
 import mastercard from './../../images/mastercard.png';
 import maestro from './../../images/maestro.png';
 import visa from './../../images/visa.png';
-import downAngle from './../../images/down-angle.png';
+// import downAngle from './../../images/down-angle.png';
 import location from './../../images/location.png';
 import clockplus from './../../images/clockplus.png';
 import phone from './../../images/phone.png';
@@ -20,15 +20,16 @@ export default function Nav() {
             <img className="card mastercard" src={mastercard} alt="Payment methods" />
             <img className="card maestro" src={maestro} alt="Payment methods" />
             <img className="card visa" src={visa} alt="Payment methods" />
-            <Button>
+            <Button className="white">
               <p className="EGP">EGP</p>
-              <img className="downAngle" src={downAngle} alt="" />
+              {/* <img className="downAngle" src={downAngle} alt="" /> */}
+              <i className="fa fa-angle-down downAngle"></i>
             </Button>
           </section>
           <section className="pages">
-            <Button><img className="location" src={location} alt="" />Stores</Button>
-            <Button><img className="clockplus" src={clockplus} alt="" />WorksTime</Button>
-            <Button><img className="phone" src={phone} alt="" />Contact us</Button>
+            <Button className="white"><img className="location" src={location} alt="" />Stores</Button>
+            <Button className="white"><img className="clockplus" src={clockplus} alt="" />WorksTime</Button>
+            <Button className="white"><img className="phone" src={phone} alt="" />Contact us</Button>
           </section>
         </nav>
       </Container>

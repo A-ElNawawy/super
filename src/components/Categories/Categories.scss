@@ -1,0 +1,15 @@
+.Categories{
+  .inner-Categories{
+    height: 64px;
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    justify-content: space-between;
+    .Button{
+      img{
+        width: 16px;
+        height: 16px;
+        margin-right: 11px;
+      }
+    }
+  }
+}

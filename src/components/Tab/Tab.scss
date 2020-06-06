@@ -1,0 +1,6 @@
+.Tab{
+  padding: 0 5px 11px ;
+  &.active{
+    border-bottom: 3px solid var(--primary-color);
+  }
+}
