@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/super/static/css/main.5779ef75.chunk.css",
-    "main.js": "/super/static/js/main.e237e84d.chunk.js",
-    "main.js.map": "/super/static/js/main.e237e84d.chunk.js.map",
-    "runtime-main.js": "/super/static/js/runtime-main.7892be6d.js",
-    "runtime-main.js.map": "/super/static/js/runtime-main.7892be6d.js.map",
-    "static/js/2.9019e83c.chunk.js": "/super/static/js/2.9019e83c.chunk.js",
-    "static/js/2.9019e83c.chunk.js.map": "/super/static/js/2.9019e83c.chunk.js.map",
+    "main.css": "/super/static/css/main.0b81413a.chunk.css",
+    "main.js": "/super/static/js/main.fd7ea8be.chunk.js",
+    "main.js.map": "/super/static/js/main.fd7ea8be.chunk.js.map",
+    "runtime-main.js": "/super/static/js/runtime-main.d3bc8ad5.js",
+    "runtime-main.js.map": "/super/static/js/runtime-main.d3bc8ad5.js.map",
+    "static/js/2.26a329c6.chunk.js": "/super/static/js/2.26a329c6.chunk.js",
+    "static/js/2.26a329c6.chunk.js.map": "/super/static/js/2.26a329c6.chunk.js.map",
     "index.html": "/super/index.html",
-    "precache-manifest.c5c227420a676fbee348c5ce85ae01d2.js": "/super/precache-manifest.c5c227420a676fbee348c5ce85ae01d2.js",
+    "precache-manifest.be39fc10adffc0295709550d892b98b0.js": "/super/precache-manifest.be39fc10adffc0295709550d892b98b0.js",
     "service-worker.js": "/super/service-worker.js",
-    "static/css/main.5779ef75.chunk.css.map": "/super/static/css/main.5779ef75.chunk.css.map",
-    "static/js/2.9019e83c.chunk.js.LICENSE.txt": "/super/static/js/2.9019e83c.chunk.js.LICENSE.txt",
+    "static/css/main.0b81413a.chunk.css.map": "/super/static/css/main.0b81413a.chunk.css.map",
+    "static/js/2.26a329c6.chunk.js.LICENSE.txt": "/super/static/js/2.26a329c6.chunk.js.LICENSE.txt",
     "static/media/BrowseByBranch.css": "/super/static/media/360.05e7d12f.png",
     "static/media/Biore.png": "/super/static/media/Biore.2a539612.png",
     "static/media/Buxton.png": "/super/static/media/Buxton.dd176d49.png",
@@ -40,9 +40,9 @@
     "static/media/whitePhone.png": "/super/static/media/whitePhone.99543ffc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7892be6d.js",
-    "static/js/2.9019e83c.chunk.js",
-    "static/css/main.5779ef75.chunk.css",
-    "static/js/main.e237e84d.chunk.js"
+    "static/js/runtime-main.d3bc8ad5.js",
+    "static/js/2.26a329c6.chunk.js",
+    "static/css/main.0b81413a.chunk.css",
+    "static/js/main.fd7ea8be.chunk.js"
   ]
 }
